@@ -1,0 +1,13 @@
+{
+  "name": "meme-toolkit",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI tools for memes and GIFs: memegen.link generator, Giphy scraper, GitHub repo link inventory.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "memegen": "node tools/memegen.cjs",
+    "giphy": "node tools/giphy.cjs",
+    "repo-links": "node tools/repo-links.cjs"
+  }
+}
